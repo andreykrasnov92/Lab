@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62A53D06-A7CD-7B16-A687-DFC190F9F07A" name="student">
+<createdBy>1</createdBy>
+<createdTime>2014-09-08 19:47:58 UTC</createdTime>
+<generatorID>B991F9B2-05B8-43F4-1434-FA9131382AAA</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="studentid" id="88A170AC-596B-0BDA-8DD5-87DD04A2A574">
+<createdBy>1</createdBy>
+<createdTime>2014-09-08 19:47:58 UTC</createdTime>
+<generatorID>94009B24-85DE-47D8-EDF7-879651DB8459</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="studentname" id="95D837EB-9890-81F2-CF22-8FAAC8213BD8">
+<createdBy>1</createdBy>
+<createdTime>2014-09-08 19:47:58 UTC</createdTime>
+<generatorID>B9E5D925-38DF-9934-C21C-C9E8186D4B93</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>99</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="groupid" id="77A2CE0C-E745-3D70-CB18-CD00CF8ED5D1">
+<createdBy>1</createdBy>
+<createdTime>2014-09-08 19:47:58 UTC</createdTime>
+<generatorID>B760CD7F-F1AA-6FF1-FF67-8947A404FE0D</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>BD651F50-2931-A9DF-E6FB-07325004E6AC</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="065C9608-405B-37B9-D329-DAAA7AD0EA94" referredColumn="BD651F50-2931-A9DF-E6FB-07325004E6AC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF98E83C-286F-AD86-7697-7C0EAB2A171E" name="student_PK">
+<createdBy>1</createdBy>
+<createdTime>2014-10-23 21:22:42 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88A170AC-596B-0BDA-8DD5-87DD04A2A574"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2242B6A-1624-091D-0B71-24531F094492" name="student_groupid_fk">
+<createdBy>1</createdBy>
+<createdTime>2014-09-08 19:47:58 UTC</createdTime>
+<generatorID>1FDD5692-D38E-013C-9F18-2062E4C2A365</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77A2CE0C-E745-3D70-CB18-CD00CF8ED5D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

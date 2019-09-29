@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="student_groupid_fk" directorySegmentName="seg_0" id="1FDD5692-D38E-013C-9F18-2062E4C2A365">
+<createdBy>1</createdBy>
+<createdTime>2014-09-08 09:46:46 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="4CF53D8D-ADA1-56A2-27A3-FD4FA52021EC" value="true"/>
+</engineerTo>
+<sourcePk>D3A09317-A997-C473-6D08-5A032B5ACEA7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>50D937CD-AE63-7CA1-51AB-BEFAE80609F8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B991F9B2-05B8-43F4-1434-FA9131382AAA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="groupid" id="32A7899F-0EE9-8E8B-3E53-144D232D197B">
+<createdBy>1</createdBy>
+<createdTime>2014-09-08 09:46:49 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="4CF53D8D-ADA1-56A2-27A3-FD4FA52021EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</attribute>
+</attributes>
+</Relation>

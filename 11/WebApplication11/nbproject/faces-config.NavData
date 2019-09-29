@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene Scope="Project" version="2">
+    <Scope Scope="Faces Configuration Only"/>
+    <Scope Scope="Project">
+        <Node id="student/View.xhtml" x="565" y="210" zoom="true"/>
+        <Node id="index.xhtml" x="413" y="103" zoom="true"/>
+        <Node id="student/StudentsByName.xhtml" x="757" y="-24" zoom="true"/>
+        <Node id="student/List.xhtml" x="529" y="-23" zoom="true"/>
+        <Node id="gruppa/Edit.xhtml" x="36" y="210" zoom="true"/>
+        <Node id="gruppa/List.xhtml" x="310" y="-22" zoom="true"/>
+        <Node id="gruppa/GroupsByName.xhtml" x="30" y="-22" zoom="true"/>
+        <Node id="gruppa/View.xhtml" x="302" y="210" zoom="true"/>
+        <Node id="student/Create.xhtml" x="639" y="102" zoom="true"/>
+        <Node id="student/Edit.xhtml" x="807" y="209" zoom="true"/>
+        <Node id="template.xhtml" x="431" y="268" zoom="true"/>
+        <Node id="gruppa/Create.xhtml" x="131" y="101" zoom="true"/>
+    </Scope>
+    <Scope Scope="All Faces Configurations"/>
+</Scene>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B991F9B2-05B8-43F4-1434-FA9131382AAA" name="student">
+<createdBy>1</createdBy>
+<createdTime>2014-09-08 08:51:57 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="4CF53D8D-ADA1-56A2-27A3-FD4FA52021EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="studentid" id="94009B24-85DE-47D8-EDF7-879651DB8459">
+<createdBy>1</createdBy>
+<createdTime>2014-09-08 08:52:05 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="4CF53D8D-ADA1-56A2-27A3-FD4FA52021EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="studentname" id="B9E5D925-38DF-9934-C21C-C9E8186D4B93">
+<createdBy>1</createdBy>
+<createdTime>2014-09-08 08:52:16 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="4CF53D8D-ADA1-56A2-27A3-FD4FA52021EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>99</dataTypeSize>
+</Attribute>
+<Attribute name="groupid" id="B760CD7F-F1AA-6FF1-FF67-8947A404FE0D">
+<createdBy>1</createdBy>
+<createdTime>2014-09-08 09:46:46 UTC</createdTime>
+<generatorID>1FDD5692-D38E-013C-9F18-2062E4C2A365</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="4CF53D8D-ADA1-56A2-27A3-FD4FA52021EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E8F3F751-595C-2119-149F-45E454FB163A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D12E90B3-DFBE-59F4-3C37-677BB08CC701" name="student PK">
+<createdBy>1</createdBy>
+<createdTime>2014-09-08 08:52:44 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="4CF53D8D-ADA1-56A2-27A3-FD4FA52021EC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>94009B24-85DE-47D8-EDF7-879651DB8459</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

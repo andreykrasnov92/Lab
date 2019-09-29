@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="50D937CD-AE63-7CA1-51AB-BEFAE80609F8" name="gruppa">
+<createdBy>1</createdBy>
+<createdTime>2014-09-08 08:45:55 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="4CF53D8D-ADA1-56A2-27A3-FD4FA52021EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="groupid" id="E8F3F751-595C-2119-149F-45E454FB163A">
+<createdBy>1</createdBy>
+<createdTime>2014-09-08 08:46:14 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="4CF53D8D-ADA1-56A2-27A3-FD4FA52021EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="groupname" id="8C84E17A-CC5E-F9CA-66DE-157FC95A4C91">
+<createdBy>1</createdBy>
+<createdTime>2014-09-08 08:50:19 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="4CF53D8D-ADA1-56A2-27A3-FD4FA52021EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>99</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D3A09317-A997-C473-6D08-5A032B5ACEA7" name="gruppa PK">
+<createdBy>1</createdBy>
+<createdTime>2014-09-08 08:52:49 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="4CF53D8D-ADA1-56A2-27A3-FD4FA52021EC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E8F3F751-595C-2119-149F-45E454FB163A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

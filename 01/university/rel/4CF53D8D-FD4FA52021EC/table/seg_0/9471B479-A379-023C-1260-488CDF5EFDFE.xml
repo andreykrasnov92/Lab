@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9471B479-A379-023C-1260-488CDF5EFDFE" name="gruppa">
+<createdBy>1</createdBy>
+<createdTime>2014-09-08 19:47:58 UTC</createdTime>
+<generatorID>50D937CD-AE63-7CA1-51AB-BEFAE80609F8</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="groupid" id="BD651F50-2931-A9DF-E6FB-07325004E6AC">
+<createdBy>1</createdBy>
+<createdTime>2014-09-08 19:47:58 UTC</createdTime>
+<generatorID>E8F3F751-595C-2119-149F-45E454FB163A</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="groupname" id="A88FF737-73CB-5CC9-4028-6C1331B34D3D">
+<createdBy>1</createdBy>
+<createdTime>2014-09-08 19:47:58 UTC</createdTime>
+<generatorID>8C84E17A-CC5E-F9CA-66DE-157FC95A4C91</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>99</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="397674A9-5035-C990-B614-F741E3BF5467" name="gruppa_PK">
+<createdBy>1</createdBy>
+<createdTime>2014-09-08 19:47:58 UTC</createdTime>
+<generatorID>D3A09317-A997-C473-6D08-5A032B5ACEA7</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD651F50-2931-A9DF-E6FB-07325004E6AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

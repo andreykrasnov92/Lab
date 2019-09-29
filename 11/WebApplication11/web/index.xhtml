@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link rel="shortcut icon" href="images/favicon.png" type="image/png"/>
+        <script type="text/javascript" src="scripts/script.js"></script>
+        <title>University</title>
+        <h:outputStylesheet name="css/jsfcrud.css"/>
+    </h:head>
+    <h:body>
+        <h:form styleClass="jsfcrud_list_form">
+            <h1>University</h1>
+            <h:commandLink action="indexGruppa" value="#{bundle.IndexGruppaShowAllLink}"/>
+            <br/>
+            <h:commandLink action="indexStudent" value="#{bundle.IndexStudentShowAllLink}"/>
+            <br/>
+            <h:commandLink action="indexLogrecord" value="#{bundle.IndexLogrecordShowAllLink}"/>
+        </h:form>
+    </h:body>
+</html>

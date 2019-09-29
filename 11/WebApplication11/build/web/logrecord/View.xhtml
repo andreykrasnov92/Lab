@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundle.ViewLogrecordTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputText value="#{bundle.ViewLogrecordLabel_logrecordid}"/>
+                    <h:outputText value="#{logrecordController.selected.logrecordid}" title="#{bundle.ViewLogrecordTitle_logrecordid}"/>
+                    <h:outputText value="#{bundle.ViewLogrecordLabel_entitytype}"/>
+                    <h:outputText value="#{logrecordController.selected.entitytype}" title="#{bundle.ViewLogrecordTitle_entitytype}"/>
+                    <h:outputText value="#{bundle.ViewLogrecordLabel_entityid}"/>
+                    <h:outputText value="#{logrecordController.selected.entityid}" title="#{bundle.ViewLogrecordTitle_entityid}"/>
+                    <h:outputText value="#{bundle.ViewLogrecordLabel_entityname}"/>
+                    <h:outputText value="#{logrecordController.selected.entityname}" title="#{bundle.ViewLogrecordTitle_entityname}"/>
+                    <h:outputText value="#{bundle.ViewLogrecordLabel_logrecordtime}"/>
+                    <h:outputText value="#{logrecordController.selected.logrecordtime}" title="#{bundle.ViewLogrecordTitle_logrecordtime}"/>
+                </h:panelGrid>
+                <br/>
+                <h:commandLink action="#{logrecordController.prepareList}" value="#{bundle.ViewLogrecordShowAllLink}"/>
+                <br/>
+                <br/>
+                <h:link outcome="/index" value="#{bundle.ViewLogrecordIndexLink}"/>
+            </h:form>
+        </ui:define>
+    </ui:composition>
+</html>

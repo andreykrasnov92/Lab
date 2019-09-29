@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!ELEMENT university(groups, students)>
+
+<!ELEMENT groups(group*)>
+<!ELEMENT students(student*)>
+
+<!ELEMENT group(groupId, groupName)>
+<!ELEMENT groupId(CDATA)>
+<!ELEMENT groupName(CDATA)>
+
+<!ELEMENT student(studentId, studentName, groupId)>
+<!ELEMENT studentId(CDATA)>
+<!ELEMENT studentName(CDATA)>
+<!ELEMENT groupId(CDATA)>
